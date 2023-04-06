@@ -51,7 +51,6 @@ namespace VerificadorDeTriangulo.ConsoleApp
             {
                 return false;
             }
-
             return true;
         }
     }
