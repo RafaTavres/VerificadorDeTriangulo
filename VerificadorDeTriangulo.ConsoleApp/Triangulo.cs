@@ -37,7 +37,7 @@ namespace VerificadorDeTriangulo.ConsoleApp
             }else
                 return "Triangulo Inválido";
         }
-        public static bool VerificaLadoValido(double Lado_1, double Lado_2, double Lado_3)
+        private bool VerificaLadoValido(double Lado_1, double Lado_2, double Lado_3)
         {
             double SomaLados1e2 = Lado_1 + Lado_2;
             double SomaLados1e3 = Lado_1 + Lado_3;
